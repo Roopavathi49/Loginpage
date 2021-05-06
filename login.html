@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lan="en">
+    <head>
+<title>
+    Login Page 
+</title>
+<style type="text/css">
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+}
+</style>
+<form>
+<script src="login2.js"></script>
+    </head>
+    <body>
+         <form id="form_id" method="post" name="myform">
+            <h1>login form</h1>
+            <div>
+                <label for="uname">Username</label>
+                <input type="text" name="name" id="username"><br>                
+            </div>      
+            <div>  
+                <label for="psw">Password</label>
+                <input type="password" name="Password" ID="password"><br>                
+            </div>
+            <input type="submit" value="Submit" onclick="validate()"/><br> 
+            <div id="demo"></div> 
+     
+        </form>
+    </body>
+</html>
